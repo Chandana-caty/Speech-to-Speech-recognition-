@@ -13,6 +13,11 @@ Streamlit: Provides the interactive web app interface.
 Groq: Interface with the LLM (language model) for generating responses.
 SpeechRecognition: For recognizing speech from microphone input.
 
+in addition to this install
+pip install pipwin
+pipwin install pyaudio
+
+
 2. Initialize the Groq LLM Client
 
 client = Groq(api_key="your_api_key_here")
